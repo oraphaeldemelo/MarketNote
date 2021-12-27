@@ -27,7 +27,7 @@ public class MarketListController {
 	public List<MarketList> list() {
 		
 		List<MarketList> allList = repository.findAll();
-		
+
 		return allList;
 	}
 	
